@@ -11,6 +11,7 @@ ADD https://storage.googleapis.com/v2ray-docker/v2ctl /v2raybin
 
 ADD entrypoint.sh /entrypoint.sh
 
+
 RUN set -ex && \
     apk --no-cache add ca-certificates && \
     mkdir /var/log/v2ray/ &&\
